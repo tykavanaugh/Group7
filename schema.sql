@@ -23,5 +23,5 @@ CREATE TABLE users (
   private_phrase_id integer,
   group_id integer,
   FOREIGN KEY (private_phrase_id) REFERENCES phrases (id),
-  FOREIGN KEY (group_id) REFERENCES groups (id),
+  FOREIGN KEY (group_id) REFERENCES groups (id)
 );
